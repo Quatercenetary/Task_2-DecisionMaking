@@ -26,12 +26,12 @@ int main(){
             i++;
         }
         if(str == 'N' || str == 'n') {
-            cout<<"Cool, try again, later."<<endl;
+            cout<<"\nCool, try again, later."<<endl;
             goto LOOP;
         }
-        else if(str == 'Y' || str == 'y') cout<<"Fine! Sure You can vote."<<endl;
+        else if(str == 'Y' || str == 'y') cout<<"\nFine! Sure You can vote."<<endl;
         else {
-            cout<<"I said, 'y' or 'n' only! Try again."<<endl;
+            cout<<"\nI said, 'y' or 'n' only! Try again."<<endl;
             goto LOOP;
         }
     }
